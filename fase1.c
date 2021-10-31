@@ -7,12 +7,10 @@
 MODULE_LICENSE("FBG");
 
 static int __init my_init(void) {
-	printk(KERN_INFO "Ei! salutacions desde  LKM\n");
 	return 0;
 }
 
 static void __exit my_exit(void) {
-	printk(KERN_INFO "Adeu amic! from  LKM\n");
 	return ;
 }
 
