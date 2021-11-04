@@ -1,4 +1,6 @@
-obj-m := fase1.o
+
+ARCH=arm
+obj-m += fase1.o
 
 all: 
 	make -C /lib/modules/$(shell uname -r)/build M=$(shell pwd) modules
