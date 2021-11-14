@@ -146,6 +146,7 @@ static void __exit my_exit(void) {
    	
 	printk(KERN_INFO "LKM_FBG_FASE1: Goodbye from the LKM!\n");
 
+
 	return ;
 }
 
